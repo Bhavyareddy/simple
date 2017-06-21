@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>HOME PAGE</title>
+	</head>
+<body>
+	<form action='/v1/save1/' method ="POST">{% csrf_token %}
+username : <input type="text" name="username" placeholder="Enter username" required><br><br>
+password : <input type="text" name="password" placeholder="Enter username" required><br><br>
+phoneno : <input type="text" name="phoneno" placeholder="Enter username" required><br><br>
+<input type="submit" value="submit">
+	</form>
+</body>
+</html>
